@@ -16,5 +16,9 @@ bcryptjs (The Locksmith): It's a tool for securely storing passwords. It scrambl
 jsonwebtoken (The Key Master): It's used to create and verify "tokens". Tokens are like digital keys that prove who a user is after they log in, allowing you to control what they can access.
 
 
+# npm install -D @types/bcryptjs @types/jsonwebtoken
+-D (Development Dependency): You are installing them only for your development environment. 
+@types/...: Because bcryptjs and jsonwebtoken were originally written in plain JavaScript (not TypeScript), TypeScript doesn't know how to read them by default.
+The Benefit: By installing these @types, you are giving TypeScript a "dictionary" of all the functions those libraries contai
 
 

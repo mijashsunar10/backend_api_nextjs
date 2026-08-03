@@ -29,3 +29,4 @@ The Benefit: By installing these @types, you are giving TypeScript a "dictionary
     "db:migrate":"npx prisma migrate dev"
 # THEN WE need to make server create nwo serve in pg admin and conenction also  and in env write connect database url from pg admin also and now we need to do .....
 npm run db:generate
+

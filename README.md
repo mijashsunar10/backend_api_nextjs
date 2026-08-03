@@ -22,3 +22,10 @@ jsonwebtoken (The Key Master): It's used to create and verify "tokens". Tokens a
 The Benefit: By installing these @types, you are giving TypeScript a "dictionary" of all the functions those libraries contai
 
 
+# we need to setup add in the package.json    
+"db:generate":"npx prisma generate",
+    "db:push":"npx prisma db push",
+    "db:seed":"npx tsx prisma/seed.ts",
+    "db:migrate":"npx prisma migrate dev"
+# THEN WE need to make server create nwo serve in pg admin and conenction also  and in env write connect database url from pg admin also and now we need to do .....
+npm run db:generate
